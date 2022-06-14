@@ -12,10 +12,12 @@ class Header extends Component {
                 <h1>Marvin Trujillo</h1>
                 <h3>Frontend Web Developer</h3>
                 <p>Technologies:<br /> HTML, CSS, JS, ReactJS,<br />Webpack, nodeJS</p>
-                <div id="btnContainer">
-                    <button> <img src={emailLogo} />Email</button>
+                <div className="btnContainer">
+                    <form action="mialto:trujillomarvin@hotmail.com">
+                        <button> <img src={emailLogo} /></button>
+                    </form>
                     <form target="_blank" action="https://www.linkedin.com/in/marvin-trujillo-b18b84132" method="get">
-                        <button><img src={linkedLogo} />LinkedIn</button>
+                        <button><img src={linkedLogo} /></button>
                     </form>
                 </div>
             </div >
